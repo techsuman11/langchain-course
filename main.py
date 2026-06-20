@@ -38,9 +38,9 @@ Musk's political activities, views, and statements have made him a polarizing fi
 
     response = chain.invoke(input={"information": information})
 
-    print("--------------------------------")
+    print("-------Printing model response-------------------------")
     print(response.content)
-    print("--------------------------------")   
+    print("-------End of model response-------------------------")   
 
 
 if __name__ == "__main__":
